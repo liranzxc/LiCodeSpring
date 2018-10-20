@@ -27,7 +27,6 @@ public class LiCodeSelenuimObject implements LiCodeControllerInterface, Finals {
 	private ChromeOptions options;
 	private WebDriver driver;
 	private Actions action;
-	public static final String facebook = "https://www.facebook.com/";
 
 	public LiCodeSelenuimObject() {
 		if (!init()) {
