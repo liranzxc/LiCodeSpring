@@ -187,7 +187,7 @@ public class LiCodeSelenuimObject implements LiCodeControllerInterface, Finals {
 			// options.addArguments("test-type");
 			options.addArguments("--disable-popup-blocking");
 			options.addArguments("--disable-notifications");
-			options.addArguments("--headless");
+			//options.addArguments("--headless");
 			
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setCapability("browser", "Chrome");
