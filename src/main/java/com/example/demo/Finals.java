@@ -1,4 +1,4 @@
-﻿package com.example.demo;
+package com.example.demo;
 public interface Finals {
 	public static final String USERNAME = "liran9";
 	public static final String AUTOMATE_KEY = "5xPb6EstKsyzvzd4vfFp";
