@@ -198,14 +198,14 @@ public class LiCodeSelenuimObject implements LiCodeControllerInterface, Finals {
 			caps.setCapability("browserstack.debug", true);
 			caps.setCapability(ChromeOptions.CAPABILITY, options);
 
-			System.setProperty("webdriver.chrome.driver", "src\\main\\java\\com\\example\\demo\\chromedriver.exe");
+			///System.setProperty("webdriver.chrome.driver", "src\\main\\java\\com\\example\\demo\\chromedriver.exe");
 
-			// driver = new RemoteWebDriver(new URL(URL), caps);
+			 driver = new RemoteWebDriver(new URL(URL), caps);
 
-			driver = new ChromeDriver(options);
+			//driver = new ChromeDriver(options);
 
-			// ((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
-			action = new Actions(driver);
+			((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
+			//action = new Actions(driver);
 			return true;
 
 		} catch (Exception e) {
