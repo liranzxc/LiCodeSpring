@@ -205,7 +205,7 @@ public class LiCodeSelenuimObject implements LiCodeControllerInterface, Finals {
 			//driver = new ChromeDriver(options);
 
 			((RemoteWebDriver) driver).setFileDetector(new LocalFileDetector());
-			//action = new Actions(driver);
+			action = new Actions(driver);
 			return true;
 
 		} catch (Exception e) {
